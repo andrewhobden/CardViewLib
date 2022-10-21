@@ -12,4 +12,9 @@ public struct CardView : View {
         }.border(Color.black)
             
     }
+    
+    public init()
+    {
+        
+    }
 }
