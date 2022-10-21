@@ -13,8 +13,9 @@ public struct CardView : View {
             
     }
     
-    public init()
+    public init(CardName:String, CardAuthor:String)
     {
-        
+        self.CardName = CardName
+        self.CardAuthor = CardAuthor
     }
 }
